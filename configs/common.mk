@@ -52,7 +52,13 @@ PRODUCT_COPY_FILES += \
 # init.d script support
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bin/sysinit:system/bin/sysinit \
-    $(LOCAL_PATH)/root/init.aquarios.rc:root/init.aquarios.rc           
+    $(LOCAL_PATH)/root/init.aquarios.rc:root/init.aquarios.rc
+    
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/bin/backuptool.sh:install/bin/backuptool.sh \
+    $(LOCAL_PATH)/bin/backuptool.functions:install/bin/backuptool.functions \
+    $(LOCAL_PATH)/addon.d/50-base.sh:system/addon.d/50-base.sh   
 
 # Add aquarios sounds
 -include vendor/aquarios/configs/aquarios_sounds.mk
