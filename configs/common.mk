@@ -23,5 +23,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/calphonic/overlays/common
 PRODUCT_PACKAGES += \
     Launcher3
 
+# Add calphonic sounds
+-include vendor/calphonic/configs/calphonic_sounds.mk
+
 # Add stock bootanimation 
 -include vendor/calphonic/configs/bootani.mk
