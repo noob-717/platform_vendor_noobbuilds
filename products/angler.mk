@@ -1,7 +1,7 @@
 # Calphonic angler make file
 
 # Include calphonic phone make file
-include vendor/noobbuilds/configs/noob_phone.mk
+include vendor/calphonic/configs/calphonic_phone.mk
 
 # Inherit AOSP device configuration for angler
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)
