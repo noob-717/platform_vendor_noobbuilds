@@ -15,13 +15,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     drm.service.enabled=true \
     ro.build.selinux=1 
-     
+
 # Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/calphonic/overlays/common
 
 # Added Packages
 PRODUCT_PACKAGES += \
-    Launcher3  
-    
-# Add stock bootanimation 
+    Launcher3
 
+# Add stock bootanimation 
+-include vendor/calphonic/configs/bootani.mk
