@@ -26,6 +26,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/calphonic/overlays/common
 PRODUCT_PACKAGES += \
     Launcher3
 
+# Include explicitly to work around Facelock issues
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-full
+
 # Add calphonic sounds
 -include vendor/calphonic/configs/calphonic_sounds.mk
 
