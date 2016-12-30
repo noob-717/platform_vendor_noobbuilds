@@ -35,3 +35,6 @@ PRODUCT_PACKAGES += \
 
 # Add stock bootanimation 
 -include vendor/calphonic/configs/bootani.mk
+
+# Add fingerprints
+-include vendor/calphonic/configs/aquarios_fingerprints.mk
