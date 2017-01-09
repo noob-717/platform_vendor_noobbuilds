@@ -1,7 +1,7 @@
-# Calphonic angler make file
+# Aquarios angler make file
 
-# Include calphonic phone make file
-include vendor/calphonic/configs/calphonic_phone.mk
+# Include aquarios phone make file
+include vendor/aquarios/configs/aquarios_phone.mk
 
 # Inherit AOSP device configuration for angler
 $(call inherit-product, device/huawei/angler/aosp_angler.mk)

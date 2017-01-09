@@ -1,8 +1,8 @@
-# Calphonic common make file
+# Aquarios common make file
 
 
 # Local path for prebuilts
-LOCAL_PATH:= vendor/calphonic/prebuilt
+LOCAL_PATH:= vendor/aquarios/prebuilt
 
 # Common build prop overrides 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -20,7 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1 
 
 # Common overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/calphonic/overlays/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/aquarios/overlays/common
 
 # Added Packages
 PRODUCT_PACKAGES += \
@@ -37,11 +37,11 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
 
-# Add calphonic sounds
--include vendor/calphonic/configs/calphonic_sounds.mk
+# Add aquarios sounds
+-include vendor/aquarios/configs/aquarios_sounds.mk
 
 # Add stock bootanimation 
--include vendor/calphonic/configs/bootani.mk
+-include vendor/aquarios/configs/bootani.mk
 
 # Add fingerprints
--include vendor/calphonic/configs/aquarios_fingerprints.mk
+-include vendor/aquarios/configs/aquarios_fingerprints.mk

@@ -1,9 +1,9 @@
-# Calphonic sounds make.
+# Aquarios sounds make.
 
 # Local path 
-LOCAL_PATH:= vendor/calphonic/prebuilt
+LOCAL_PATH:= vendor/aquarios/prebuilt
 
-#add calphonic audio files
+#add aquarios audio files
 # Alarms
 PRODUCT_COPY_FILES += \
         $(LOCAL_PATH)/media/audio/alarms/Argon.ogg:system/media/audio/alarms/Argon.ogg \

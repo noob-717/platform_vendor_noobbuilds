@@ -1,7 +1,7 @@
-# calphonic phone make file
+# aquarios phone make file
 
 # Include common make file
-include vendor/calphonic/configs/common.mk
+include vendor/aquarios/configs/common.mk
 
 # Phone packages
 PRODUCT_PACKAGES += \
@@ -14,3 +14,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dun.override=0 \
     keyguard.no_require_sim=true \
     ro.com.android.dataroaming=false
+    
