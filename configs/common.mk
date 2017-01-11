@@ -38,6 +38,10 @@ PRODUCT_BOOT_JARS += \
 # Include explicitly to work around Facelock issues
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full
+    
+# Add SuperSU
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/addon.d/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip    
 
 # Add aquarios sounds
 -include vendor/aquarios/configs/aquarios_sounds.mk
