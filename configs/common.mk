@@ -20,7 +20,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1 
 
 # Common overlays
-PRODUCT_PACKAGE_OVERLAYS += vendor/aquarios/overlays/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/aquarios/overlay/common
 
 # Added Packages
 PRODUCT_PACKAGES += \
