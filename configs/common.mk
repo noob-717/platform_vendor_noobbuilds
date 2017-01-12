@@ -26,7 +26,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/aquarios/overlays/common
 PRODUCT_PACKAGES += \
     Launcher3 \
     AdAway \
-    KernelAdiutor    
+    KernelAdiutor \
+    masquerade
 
 # DU Utils Library
 PRODUCT_PACKAGES += \
