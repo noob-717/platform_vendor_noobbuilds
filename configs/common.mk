@@ -43,7 +43,11 @@ PRODUCT_PACKAGES += \
     
 # Add SuperSU
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/addon.d/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip    
+    $(LOCAL_PATH)/addon.d/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip
+    
+# Add osmOsis Busybox
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/addon.d/UPDATE-Busybox.zip:system/addon.d/UPDATE-Busybox.zip       
 
 # Add aquarios sounds
 -include vendor/aquarios/configs/aquarios_sounds.mk
