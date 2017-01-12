@@ -27,7 +27,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     AdAway \
     KernelAdiutor \
-    masquerade
+    masquerade \
+    Substratum
 
 # DU Utils Library
 PRODUCT_PACKAGES += \
