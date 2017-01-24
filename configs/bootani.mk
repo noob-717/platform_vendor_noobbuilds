@@ -5,3 +5,9 @@ PRODUCT_COPY_FILES += \
     vendor/aquarios/prebuilt/media/angler.zip:system/media/bootanimation.zip
 endif
 
+ifeq (flounder,$(TARGET_PRODUCT))
+PRODUCT_COPY_FILES += \
+    vendor/aquarios/prebuilt/media/flounder.zip:system/media/bootanimation.zip
+endif    
+
+
